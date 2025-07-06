@@ -19,7 +19,7 @@ const testimonials = [
     role: 'Fashion Influencer',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop',
     rating: 5,
-    text: 'The quality of LuxeStore clothing is unmatched. Each piece feels luxurious and the attention to detail is remarkable. I've received countless compliments on my outfits from their latest collection.',
+    text: 'The quality of LuxeStore clothing is unmatched. Each piece feels luxurious and the attention to detail is remarkable. I\'ve received countless compliments on my outfits from their latest collection.',
   },
   {
     id: 2,
