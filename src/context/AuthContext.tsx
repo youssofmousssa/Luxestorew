@@ -7,6 +7,7 @@ type User = {
   name: string
   email: string
   role: 'user' | 'admin'
+  avatar?: string
 }
 
 type AuthContextType = {
@@ -47,6 +48,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         name: 'John Doe',
         email,
         role: 'user',
+        avatar: email === 'demo@example.com' ? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop' : undefined
       }
 
       // Simulate API delay
@@ -72,6 +74,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         name,
         email,
         role: 'user',
+        avatar: undefined
       }
 
       // Simulate API delay
